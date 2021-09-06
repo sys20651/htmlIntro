@@ -1,0 +1,351 @@
+Elements/Tags and their attribute:
+=====================================
+<html>
+    - lang
+    - prefix 
+    -itemtype
+<body> 
+    - alink
+    - link
+    - vlink
+    - background
+    - bottommargin/leftmargin/topmargin/rightmargin
+    - class
+    - onerror
+    - onload
+    - onmessage
+    - ononline
+    - onoffline
+    - onundo
+    - onredo
+    - onunload
+    - text
+    - jscontroller
+    - marginheight
+    - jsmodel
+<head> 
+    - profile
+<meta> (self-closed)
+    - name
+    - content
+    - charset
+    - http-equiv
+    - property
+<base>
+    - href
+    - target
+<link>
+    - href
+    - charset
+    - rel
+    - sizes
+    - type
+    - media
+    - title
+    - crossorigin
+    - as
+    - imagesizes
+    - imgsrcset
+    - integrity
+<style>
+    - type
+    - media
+    - nonce
+    - title
+<script>
+    - async
+    - crossorigin
+    - integrity
+    - nomodule
+    - defer
+    - nonce
+    - src
+    - type
+    - charset
+    - lang
+<noscript> (global)  
+<blockquote>
+    - cite
+<div> (global)
+    - class
+    - id
+<slot>
+    - name
+<area>
+    - alt
+    - coords
+    - download
+    - href
+    - ping
+    - referrerpolicy
+    - rel
+    - shape
+    - target
+<track>
+    - default
+    - kind
+    - label
+    - src
+    - srclang
+<header>
+     - class
+     - id
+<footer>
+     - class
+     - id
+<main>
+     - id
+     - class
+     - role
+<nav> (global)
+     - class
+     - id 
+<a>
+    - href
+    - title
+    - class
+    - id
+<h1> to <h6> (global)
+    - class
+    - id
+<p> (global)
+<q>
+    - cite
+    - blockquote
+<span> (global)
+    - class
+    - id
+<u> (global)
+<ul>
+    - compact
+    - type
+<li>
+    - value
+    - type
+<b> (global)
+<br> 
+    - clear
+<hr>
+    - align
+    - color
+    - noshade
+    - size
+    - width
+<pre>
+    - cols
+    - width
+    - wrap
+<base>
+    - href
+    - target
+<basefont>
+    - color
+    - font
+    - size
+<button>
+    - autofocus
+    - autocomplete
+    - disabled
+    - form
+    - formaction
+    - formmethod
+    - formnovalidate
+    - formtype
+    - name 
+    - type
+    - value
+<form>
+    - accept
+    - accept-charset
+    - autocomplete
+    - name
+    - rel
+    - action
+    - enctype
+    - method
+    - novalidate
+    - target
+<label>
+    - for
+<input>
+    - accept
+    - alt
+    - autocomplete
+    - autofocus
+    - capture
+    - checked
+    - disabled
+    - form
+    - formaction
+    - formenctype
+    - formmethod
+    - formnovalidate
+    - height
+    - formtarget
+    - list
+    - max
+    - min
+    - name
+    - pattern
+    - placeholder
+    - size
+    - src
+    - type
+    - value
+    - width
+<output>
+    - for
+    - form
+    - name
+<select>
+    - autocomplete
+    - autofocus
+    - diabled
+    - form
+    - multiple
+    - name
+    - required
+    - size
+<fieldset>
+    - disabled
+    - form
+    - name
+<textarea>
+    - autocapitalize
+    - autocomplete
+    - autocorrect
+    - autofocus
+    - cols
+    - disabled
+    - form
+    - maxlength
+    - minlength
+    - name
+    - placeholder
+<section> (global)
+<template>
+    - content
+<slot>
+    - name
+<content>
+    - select
+<code> (global)
+<data>
+    - value
+<var> (global)
+<img>
+    - alt
+    - src
+    - crossorigin
+    - height
+    - decoding
+    - ismap
+    - loading
+    - size
+    - width
+    - align
+    - usemap
+    - border
+    - hsmap
+    - name
+<figure> (global)
+<canvas>
+    - height
+    - width
+<svg>
+    - baseProfile
+    - contentScriptType
+    - contentStyleType
+    - height
+    - preserveAspectRatio
+    - version
+    - viewBox
+    - width
+    - x/y 
+<audio>
+    - autoplay
+    - crossorigin
+    - controls
+    - loop
+    - muted
+    - preloop
+    - src
+    - type
+<video>
+    - autoplay
+    - src
+    - autopictureinpicture
+    - controls
+    - controlslist
+    - crossorigin
+    - height
+    - loop
+    - playsinline
+    - poster
+    - muted
+    - width
+<area>
+    - alt
+    - coords
+    - downloads
+    - href
+    - hreflang
+    - ping
+    - referrerpolicy
+    - rel
+    - shape
+    - target
+<map>
+    - name
+<object>
+    - archive
+    - border
+    - classid
+    - codebase
+    - codetype
+    - data
+    - declare
+    - form
+    - height
+    - name
+    - type
+    - usemap
+    - width
+<param>
+    - name
+    - value
+    - type
+    - valuetype
+<portal>
+    - referrerpolicy
+    - src
+<source>
+    - media
+    - sizes
+    - src
+    - type
+<table>
+    - align
+    - bgcolor
+    - border
+    - cellpadding
+    - cellspacing
+    - frame
+    - summary
+    - rules
+    - width
+<caption> 
+    - align
+<col>
+    - span
+    - align
+    - char
+    - charoff
+    - valign
+    - width
+<details>
+    - open
+<menu> (global)
+<dialog>
+    - open
+<summary> (global)
