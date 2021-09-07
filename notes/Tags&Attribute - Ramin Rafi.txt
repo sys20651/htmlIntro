@@ -149,8 +149,6 @@ Global Attributes (common in every element)
      - role
 
 <nav> (global)
-     - class
-     - id 
 
 <a>
     - href
@@ -159,8 +157,6 @@ Global Attributes (common in every element)
     - id
 
 <h1> to <h6> (global)
-    - class
-    - id
 
 <p> (global)
 
