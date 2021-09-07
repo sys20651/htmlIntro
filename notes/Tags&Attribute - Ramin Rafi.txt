@@ -178,12 +178,17 @@ Global Attributes (common in every element)
     - value
     - type
 
+<ol>
+    - reversed
+	- start
+	- type
+
 <b> (global)
 
 <br> 
     - clear
 
-<hr>
+<hr> (self-closed)
     - align
     - color
     - noshade
@@ -333,6 +338,8 @@ Global Attributes (common in every element)
     - name
 
 <figure> (global)
+
+<figcaption> (global)
 
 <canvas>
     - height
