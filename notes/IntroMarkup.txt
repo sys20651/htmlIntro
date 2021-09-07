@@ -1,7 +1,7 @@
 W3C?
-    World Wide Web Concorciam. To define Standars.
+    World Wide Web Concorciam. To define Standards.
 What is Markup?
-    Specifice set of words for the lang define by W3C.
+    Specific set of words for the lang define by W3C.
         - <element> 
         - <elementOpening> code here </elementClosing>
         - <elementName /> [self closed]

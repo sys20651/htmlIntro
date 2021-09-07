@@ -1,15 +1,50 @@
 Elements/Tags and their attribute:
-=====================================
-<html>
+===========================================
+Global Attributes (common in every element)
+    - accesskey
+    - autocapitalize
+    - autofocus
+    - class
+    - contenteditable
+    - contextmenu
+    - data
+    - dir
+    - draggable
+    - enterkeyhint
+    - exportparts
+    - hidden
+    - id
+    - inputmode
+    - is
+    - itemid
+    - itemprop
+    - itemref
+    - itemscope
+    - itemtype
+    - lang
+    - nonce 
+    - part
+    - slot
+    - spellcheck
+    - style
+    - tabindex
+    - title 
+    - translate
+
+<html> [root element]
     - lang
     - prefix 
-    -itemtype
+    - itemtype
+
 <body> 
     - alink
     - link
     - vlink
     - background
-    - bottommargin/leftmargin/topmargin/rightmargin
+    - bottommargin
+    - leftmargin
+    - topmargin
+    - rightmargin
     - class
     - onerror
     - onload
@@ -23,17 +58,21 @@ Elements/Tags and their attribute:
     - jscontroller
     - marginheight
     - jsmodel
+
 <head> 
     - profile
+
 <meta> (self-closed)
     - name
     - content
     - charset
     - http-equiv
     - property
+
 <base>
     - href
     - target
+
 <link>
     - href
     - charset
@@ -47,11 +86,13 @@ Elements/Tags and their attribute:
     - imagesizes
     - imgsrcset
     - integrity
+
 <style>
     - type
     - media
     - nonce
     - title
+
 <script>
     - async
     - crossorigin
@@ -63,14 +104,19 @@ Elements/Tags and their attribute:
     - type
     - charset
     - lang
+
 <noscript> (global)  
+
 <blockquote>
     - cite
+
 <div> (global)
     - class
     - id
+
 <slot>
     - name
+
 <area>
     - alt
     - coords
@@ -81,67 +127,93 @@ Elements/Tags and their attribute:
     - rel
     - shape
     - target
+
 <track>
     - default
     - kind
     - label
     - src
     - srclang
+
 <header>
      - class
      - id
+
 <footer>
      - class
      - id
+
 <main>
      - id
      - class
      - role
+
 <nav> (global)
      - class
      - id 
+
 <a>
     - href
     - title
     - class
     - id
+
 <h1> to <h6> (global)
     - class
     - id
+
 <p> (global)
+
 <q>
     - cite
     - blockquote
+
 <span> (global)
     - class
     - id
+
 <u> (global)
+
 <ul>
     - compact
     - type
+
 <li>
     - value
     - type
+
 <b> (global)
+
 <br> 
     - clear
+
 <hr>
     - align
     - color
     - noshade
     - size
     - width
+
 <pre>
     - cols
     - width
     - wrap
+
+<param>
+    - name
+    - value
+    - type
+    - paramtype
+
 <base>
     - href
     - target
+
 <basefont>
     - color
     - font
     - size
+
 <button>
     - autofocus
     - autocomplete
@@ -154,6 +226,7 @@ Elements/Tags and their attribute:
     - name 
     - type
     - value
+
 <form>
     - accept
     - accept-charset
@@ -165,8 +238,10 @@ Elements/Tags and their attribute:
     - method
     - novalidate
     - target
+
 <label>
     - for
+
 <input>
     - accept
     - alt
@@ -193,10 +268,12 @@ Elements/Tags and their attribute:
     - type
     - value
     - width
+
 <output>
     - for
     - form
     - name
+
 <select>
     - autocomplete
     - autofocus
@@ -206,10 +283,12 @@ Elements/Tags and their attribute:
     - name
     - required
     - size
+
 <fieldset>
     - disabled
     - form
     - name
+
 <textarea>
     - autocapitalize
     - autocomplete
@@ -222,17 +301,25 @@ Elements/Tags and their attribute:
     - minlength
     - name
     - placeholder
+
 <section> (global)
+
 <template>
     - content
+
 <slot>
     - name
+
 <content>
     - select
+
 <code> (global)
+
 <data>
     - value
+
 <var> (global)
+
 <img>
     - alt
     - src
@@ -248,10 +335,13 @@ Elements/Tags and their attribute:
     - border
     - hsmap
     - name
+
 <figure> (global)
+
 <canvas>
     - height
     - width
+
 <svg>
     - baseProfile
     - contentScriptType
@@ -262,6 +352,7 @@ Elements/Tags and their attribute:
     - viewBox
     - width
     - x/y 
+
 <audio>
     - autoplay
     - crossorigin
@@ -271,6 +362,7 @@ Elements/Tags and their attribute:
     - preloop
     - src
     - type
+
 <video>
     - autoplay
     - src
@@ -284,6 +376,7 @@ Elements/Tags and their attribute:
     - poster
     - muted
     - width
+
 <area>
     - alt
     - coords
@@ -295,8 +388,10 @@ Elements/Tags and their attribute:
     - rel
     - shape
     - target
+
 <map>
     - name
+
 <object>
     - archive
     - border
@@ -311,19 +406,23 @@ Elements/Tags and their attribute:
     - type
     - usemap
     - width
+
 <param>
     - name
     - value
     - type
     - valuetype
+
 <portal>
     - referrerpolicy
     - src
+
 <source>
     - media
     - sizes
     - src
     - type
+
 <table>
     - align
     - bgcolor
@@ -334,8 +433,10 @@ Elements/Tags and their attribute:
     - summary
     - rules
     - width
+
 <caption> 
     - align
+
 <col>
     - span
     - align
@@ -343,9 +444,13 @@ Elements/Tags and their attribute:
     - charoff
     - valign
     - width
+
 <details>
     - open
+
 <menu> (global)
+
 <dialog>
     - open
+
 <summary> (global)
