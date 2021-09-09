@@ -1,0 +1,10 @@
+Block Level Element
+A block-level element always starts on a new line and it takes up full width available
+For e.g <div> <address> <section> <fieldset> <blockquote> <canvas>
+
+
+Inline Level Element
+An inline-level element does not start from a new line and takes up only as much width as necessary
+For e.g <a> <b> <label> <button> <textarea> <cite> <select>
+
+Block level element can contain inline elements but inline elements cannot contain block level elements

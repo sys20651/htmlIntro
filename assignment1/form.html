@@ -10,44 +10,121 @@
     </head>
     <body>
 		<fieldset>
-			<div style="padding:50px 600px">
-				<h1 style="margin-left:35px; color:red; font-family: arial, sans-serif;">Student Form</h1>
-				<form action="" method="get">
-				  <div style="padding:10px 10px">
-					<label style="font-family: arial, sans-serif;" for="fname">Firstname: </label>
-					<input type="text" name="fname" id="fname" placeholder="Enter your first name" required>
-				  </div>
-				  <div style="padding:10px 10px">
-					<label style="font-family: arial, sans-serif;" for="lname">Lastname: </label>
-					<input type="text" name="lname" id="lname" placeholder="Enter your last name" required>
-				  </div>
-				  <div style="padding:10px 10px">
-					<label style="font-family: arial, sans-serif;" for="email">Email: </label>
-					<input style="margin-left:27px" type="email" name="email" id="email" placeholder="Enter your email" required>
-				  </div>
-				  <div style="padding:10px 10px">
-					<label style="font-family: arial, sans-serif;" for="city">City: </label>
-					<select style="margin-left:38px; padding-right:32px; padding-left:48px; font-family: Fira Sans, sans-serif;" type="city" name="city" id="city">
-						<option value="lahore">Lahore</option>
-						<option value="karachi">Karachi</option>
-						<option value="islamabad">Islamabad</option>
-						<option value="peshawar">Peshawar</option>
-						<option value="quetta">Quetta</option>
-					</select>
-				  </div>
-				  <div style="padding:10px 10px">
-					<label style="font-family: arial, sans-serif;" for="address">Address: </label>
-					<input style="margin-left:7px" type="address" name="address" id="address" placeholder="Enter your address" required>
-				  </div>
-				  <div style="padding:10px 10px">
-					<label style="font-family: arial, sans-serif;" for="address">Phone #: </label>
-					<input style="margin-left:7px" type="tel" name="phone" id="phone" placeholder="Enter your phone" required>
-				  </div>
-				  <div style="padding:10px 80px">
-					<button style="border: none; background-color: #008CBA; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer;">Submit</button>
-				  </div>
-				</form>
-			</div>
-		</fieldset
+			<legend><h2>Student Form</h2></legend>
+			<form action="#" method="GET">
+				<table border="1" align="center" cellspacing="0" cellpadding="20px" >
+					<thead>
+						<tr>
+							<th colspan="2">
+								<h3>Personal Information</h3>
+							</th>
+						</tr>
+					</thead>
+					<tbody align="center">
+						<tr>
+							<th><label for="fname">First Name:</label></th>
+							<td><input type="text" placeholder="Enter your first name" name="fname" id="fname" required autofocus></td>
+						</tr>
+						<tr>
+							<th><label for="lname">Last Name:</label></th>
+							<td><input type="text" placeholder="Enter your last name" name="lname" id="lname" required></td>
+						</tr>
+						<tr>
+							<th><label for="email">Email:</label></th>
+							<td><input type="email" placeholder="Enter your email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></td>
+						</tr>
+						<tr>
+							<th><label for="pwd">Password:</label></th>
+							<td><input type="password" id="pwd" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Password must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder="Type your password" required></td>
+						</tr>
+						<tr>
+							<th><label for="dob">Date of Birth:</label></th>
+							<td><input type="date" id="dob" name="dob" min="2021-09-01" required></td>
+						</tr>
+						<tr>
+							<th><label for="phone">Phone Number:</label></th>
+							<td><input type="tel" id="phone" name="phone" placeholder="+92-123-4567890" required></td>
+						</tr>
+						<tr>
+							<th><label for="degree">Degree:</label></th>
+							<td>
+								<input list="degree" name="degree" placeholder="Select your degree" required>
+								<datalist id="degree">
+									<option value="Bachelors">
+									<option value="Masters">
+									<option value="Phd">
+								</datalist>
+							</td>
+						</tr>
+						<tr>
+							<th><label for="favsubject">Favourite Subjects:</label></th>
+							<td align="left" style="padding-left:90px">
+								<input type="checkbox" id="CS" name="CS" value="CS" checked>
+								<label for="CS"> Computer Science</label><br>
+								<input type="checkbox" id="biology" name="biology" value="biology">
+								<label for="biology"> Biology</label><br>
+								<input type="checkbox" id="maths" name="maths" value="maths">
+								<label for="maths"> Mathematics</label>
+							</td>
+						</tr>
+						<tr>
+							<th><label for="gender">Gender:</label></th>
+							<td align="left" style="padding-left:90px">
+								<input type="radio" id="gender" name="gender" value="Male" checked>
+								<label for="Male">Male</label><br>
+								<input type="radio" id="gender" name="gender" value="Female">
+								<label for="Female">Female</label><br>
+								<input type="radio" id="gender" name="gender" value="Other">
+								<label for="Other">Other</label>
+							</td>
+						</tr>
+						<tr>
+							<th><label for="files">Upload Picture:</label></th>
+							<td style="padding-left: 80px;"><input type="file" id="files" name="files" placeholder="Select your picture "></td>
+						</tr>
+						<tr>
+							<th><label for="siblings">Number of Siblings:</label></th>
+							<td><input type="number" id="siblings" name="siblings" min="0"</td>
+						</tr>
+						<tr>
+							<th><label for="favcolor">Favorite color:</label></th>
+							<td><input type="color" id="favcolor" name="favcolor" value="#ffff00"></td>
+						</tr>
+						<tr>
+							<th><label for="month">Joining Session (Month & Year):</label></th>
+							<td><input type="month" id="month" name="month"></td>
+						</tr>
+						<tr>
+							<th><label for="transport">Choose your mode of transport:</label></th>
+							<td>
+								<select id="transport" name="transport">
+									<optgroup label="Public">
+										<option value="bus">Bus</option>
+										<option value="rickshaw">Rickshaw</option>
+									</optgroup>
+									<optgroup label="Private">
+										<option value="car">Car</option>
+										<option value="bike">Bike</option>
+										<option value="cycle">Cycle</option>
+									</optgroup>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th><label for="message">Message:</label></th>
+							<td><textarea name="message" rows="5" cols="20">Write anything you want to say.</textarea></td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td align="center" colspan="2">
+								<input type="button" value="Submit">
+							</td>
+						</tr>
+					</tfoot>
+				</table>
+			</form>
+		</fieldset>
+	
     </body>
 </html>
