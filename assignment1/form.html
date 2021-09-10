@@ -1,4 +1,4 @@
-<!doctype html/>
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -14,10 +14,10 @@
 			<form action="#" method="GET">
 				<table border="1" align="center" cellspacing="0" cellpadding="20px" >
 					<!-- Table Head -->
-					<thead bgcolor="lightblue">
+					<thead>
 						<tr>
 							<th colspan="2">
-								<font color="gray"><h3 style="padding-top: 15px;">Personal Information</h3></font>
+								<font color="gray">Personal Information</font>
 							</th>
 						</tr>
 					</thead>
@@ -55,7 +55,7 @@
 						</tr>
 						<!-- Degree Dropdown -->
 						<tr>
-							<th><label for="degree">Degree:</label></th>
+							<th><label>Degree:</label></th>
 							<td>
 								<input list="degree" name="degree" placeholder="Select your degree" required>
 								<datalist id="degree">
@@ -67,7 +67,7 @@
 						</tr>
 						<!-- Favourite Subject -->
 						<tr>
-							<th><label for="favsubject">Favourite Subjects:</label></th>
+							<th><label>Favourite Subjects:</label></th>
 							<td align="left" style="padding-left:90px">
 								<input type="checkbox" id="CS" name="CS" value="CS" checked>
 								<label for="CS"> Computer Science</label><br>
@@ -79,25 +79,25 @@
 						</tr>
 						<!-- Gender -->
 						<tr>
-							<th><label for="gender">Gender:</label></th>
+							<th><label>Gender:</label></th>
 							<td align="left" style="padding-left:90px">
-								<input type="radio" id="gender" name="gender" value="Male" checked>
-								<label for="Male">Male</label><br>
-								<input type="radio" id="gender" name="gender" value="Female">
-								<label for="Female">Female</label><br>
-								<input type="radio" id="gender" name="gender" value="Other">
-								<label for="Other">Other</label>
+								<input type="radio" id="male" name="gender" value="Male" checked>
+								<label for="male">Male</label><br>
+								<input type="radio" id="female" name="gender" value="Female">
+								<label for="female">Female</label><br>
+								<input type="radio" id="other" name="gender" value="Other">
+								<label for="other">Other</label>
 							</td>
 						</tr>
 						<!-- Upload a file -->
 						<tr>
 							<th><label for="files">Upload Picture:</label></th>
-							<td style="padding-left: 80px;"><input type="file" id="files" name="files" placeholder="Select your picture "></td>
+							<td style="padding-left: 80px;"><input type="file" id="files" name="files"></td>
 						</tr>
 						<!-- Number of Siblings -->
 						<tr>
 							<th><label for="siblings">Number of Siblings:</label></th>
-							<td><input type="number" id="siblings" name="siblings" min="0"</td>
+							<td><input type="number" id="siblings" name="siblings" min="0"></td>
 						</tr>
 						<!-- Color Selector -->
 						<tr>
@@ -129,7 +129,7 @@
 						<!-- Comment section using textarea -->
 						<tr>
 							<th><label for="message">Comments:</label></th>
-							<td><textarea name="message" rows="5" cols="20">Write anything you want to say.</textarea></td>
+							<td><textarea id="message" name="message" rows="5" cols="20">Write anything you want to say.</textarea></td>
 						</tr>
 					</tbody>
 					<!-- Table Foot -->
